@@ -1,0 +1,58 @@
+.menu {
+    color: black;
+    background-color: white;
+    border-bottom: solid 1px black;
+    margin-bottom: 0px;
+    
+}
+
+.class2 {
+    
+    background-image:url("image/airsoft-4498481_640.jpg");
+    size: 1550px;
+    
+   
+}
+
+.button {
+    border: none;
+    border-right: solid 1px black;
+    border-left: none;
+    margin-bottom: 10px;
+    background: none;
+    margin-right: 0px;
+    margin-left: 0px;
+  
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.button:hover{
+    border : none;
+    animation-name: ligne;
+    animation: ligne 1s;
+    
+}
+
+
+
+
+
+.button a{
+    text-decoration: none;
+    color: rgb(118, 114, 114);
+
+}
+
+
+@keyframes ligne {
+    from {
+        border-bottom: 0%;
+    }
+    to {
+        
+    }
+}
