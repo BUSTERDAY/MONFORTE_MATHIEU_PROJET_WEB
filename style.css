@@ -1,18 +1,13 @@
 .menu {
     
-    background-color: white;
+    background-color: darkslategray;
     border-bottom: solid 1px black;
     margin-bottom: 0px;
-    position: fixed;
+    position: 0;
     width: 100%;
 }
 
-.class2 {
-    
-    background-image:url("image/airsoft-4498481_640.jpg");
-    size: 1550px;
-    max-width: 100%;
-}
+
 
 #presentation{
     display: flex;
@@ -59,6 +54,7 @@ body{
     margin: 0px;
     padding: 0px;
     max-width: 99%;
+    background-color: rgb(29, 26, 25);
 }
 
 #presentation{
@@ -72,7 +68,7 @@ body{
     margin-right: 0px;
     margin-left: 5px;
     padding: 0px;
-    border: 2px solid black;
+    border: 2px solid rgb(33, 38, 70);
     height: 350px;
     min-width: 100%;
 }
@@ -93,15 +89,56 @@ body{
 .square{
     
     color : white;
-    background-color: black;
+    background-color: darkslategray;
     min-width: 50%;
     height: 350px;
     padding: 0;
     margin: 0;
 }
 
-.button2 {
+.background{
     min-width: 50%;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.button2 {
+    
+    border-radius: 30px;
+    
+}
+
+.button2 a{
+    text-decoration: none;
+}
+
+#end{
+    border-right: none;
+}
+
+#cat{
+    background-image:url("image/airsoft-4498481_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#comment{
+    background-image:url("image/commencer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#types{
+    background-image:url(image/difftypes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#equipement{
+    background-image:url(image/equipement.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
