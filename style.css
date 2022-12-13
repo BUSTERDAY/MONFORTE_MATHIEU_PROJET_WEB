@@ -1,0 +1,107 @@
+.menu {
+    
+    background-color: white;
+    border-bottom: solid 1px black;
+    margin-bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+#presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    border: none;
+    border-right: solid 1px black;
+    border-left: none;
+    margin-bottom: 10px;
+    background: none;
+    margin-right: 0px;
+    margin-left: 0px;
+  
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.button :hover{
+    font-size: larger;
+    
+}
+
+#presentation{
+    background-image: url("image/pageacceuil.jfif");
+    background-repeat: none;
+    background-size: cover;
+    
+}
+
+.bloc {
+    min-height: 1000px;
+    min-width: 100%;
+    margin-left: 5px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    max-width: 99%;
+}
+
+#presentation{
+    color: beige;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    margin-right: 0px;
+    margin-left: 5px;
+    padding: 0px;
+    border: 2px solid black;
+    height: 350px;
+    min-width: 100%;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 5px;
+    margin-right: 0px;
+    margin-left: 5px;
+    padding: 0;
+    border: 2px solid black;
+    height: 350px;
+    min-width: 100%;
+}
+
+.square{
+    
+    color : white;
+    background-color: black;
+    min-width: 50%;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+}
+
+.button2 {
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.titre{
+    margin-top: 70px;
+}
+
