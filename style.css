@@ -202,3 +202,25 @@ body{
     border-right-color:red !important;
     color: whitesmoke;
 }
+
+#aeg{
+    background-image: url(/image/AEG.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gbb{
+    background-image: url(/image/gbb.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#spring{
+    background-image: url(/image/spring.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Haut{
+    color: whitesmoke;
+}
