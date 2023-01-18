@@ -8,6 +8,10 @@
     transition: 1s;
 }
 
+body{
+    font-family: "Oswald",sans-serif;
+}
+
 
 
 #presentation{
@@ -154,13 +158,13 @@ body{
     color: azure;
 }
 
-#titre{
+.titre{
     display: flex;
     justify-content: center;
     color: whitesmoke;
 }       
 
-#contenant{
+.contenant{
     max-width: 80%;
     min-width: 80%;
     min-height: 500px;
@@ -176,7 +180,7 @@ body{
     align-items: center;
     justify-content: space-around
 }
-#contenu{
+.contenu{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -221,6 +225,18 @@ body{
     background-size: cover;
 }
 
-#Haut{
+.Haut{
     color: whitesmoke;
+}
+
+#gear{
+    background-image: url(/image/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#protections{
+    background-image: url(/image/protec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
