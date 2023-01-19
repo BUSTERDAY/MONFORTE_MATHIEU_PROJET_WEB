@@ -1,242 +1,232 @@
+/* design du menu ce situant en haut des pages.*/
 .menu {
-    
-    background-color: darkslategray;
-    border-bottom: solid 1px black;
-    margin-bottom: 0px;
-    position: 0;
-    width: 100%;
-    transition: 1s;
+  background-color: darkslategray;
+  border-bottom: solid 1px black;
+  margin-bottom: 0px;
+  position: 0;
+  width: 100%;
+  transition: 1s;
 }
 
-body{
-    font-family: "Oswald",sans-serif;
+/* Position de l'image centrale de l'index*/
+#presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-
-
-
-#presentation{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
+/*design des boutons utilisé pour le menu situé en haut des pages*/
 .button {
-    border: none;
-    border-right: solid 1px black;
-    border-left: none;
-    margin-bottom: 10px;
-    background: none;
-    margin-right: 0px;
-    margin-left: 0px;
-    transition: 1s;
-  
+  border: none;
+  border-right: solid 1px black;
+  border-left: none;
+  margin-bottom: 10px;
+  background: none;
+  margin-right: 0px;
+  margin-left: 0px;
+  transition: 1s;
 }
+/*design du contenu des boutons du menu situé en haut des pages*/
+.button a {
+  text-decoration: none;
+  color: black;
+  transition: 1s;
+}
+/*animation des boutons du menu situé en haut des pages*/
+.button :hover {
+  font-size: larger;
+  transition: 1s;
 
-.button a{
-    text-decoration: none;
-    color: black;
-    transition: 1s;
+  font-style: bold;
+  color: whitesmoke;
 }
-.button :hover{
-    font-size: larger;
-    transition: 1s;
-    
-    font-style: bold;
-    color: whitesmoke;
-    
+/*Image centrale de la page index*/
+#presentation {
+  background-image: url("image/pageacceuil.jfif");
+  background-repeat: none;
+  background-size: cover;
 }
-
-#presentation{
-    background-image: url("image/pageacceuil.jfif");
-    background-repeat: none;
-    background-size: cover;
-    
-}
-
+/*taille de l'image centrale de la page index*/
 .bloc {
-    min-height: 1000px;
-    min-width: 100%;
-    margin-left: 5px;
+  min-height: 1000px;
+  min-width: 100%;
+  margin-left: 5px;
 }
-
-body{
-    margin: 0px;
-    padding: 0px;
-    max-width: 99%;
-    background-color: rgb(29, 26, 25);
+/* Choix de la police d'écriture et de la couleur de fond du site*/
+body {
+  margin: 0px;
+  padding: 0px;
+  max-width: 99%;
+  background-color: rgb(29, 26, 25);
+  font-family: "Oswald", sans-serif, serif;
 }
-
-#presentation{
-    color: beige;
+/* Choix de la couleur pour le titre situé sur l'image centrale de l'index*/
+#presentation {
+  color: beige;
 }
-
+/*design pour avoir l'image a droite et le texte à gauche */
 .box1 {
-    display: flex;
-    align-items: center;
-    margin: 5px;
-    margin-right: 0px;
-    margin-left: 5px;
-    padding: 0px;
-    border: 2px solid rgb(33, 38, 70);
-    height: 350px;
-    min-width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  margin-right: 0px;
+  margin-left: 5px;
+  padding: 0px;
+  border: 2px solid darkslategray;
+  height: 350px;
+  min-width: 100%;
 }
-
-.box2{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    margin: 5px;
-    margin-right: 0px;
-    margin-left: 5px;
-    padding: 0;
-    border: 2px solid black;
-    height: 350px;
-    min-width: 100%;
+/*design pour avoir l'image à gauche et le texte à droite*/
+.box2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 5px;
+  margin-right: 0px;
+  margin-left: 5px;
+  padding: 0;
+  border: 2px solid darkslategray;
+  height: 350px;
+  min-width: 100%;
 }
-
-.square{
-    
-    color : white;
-    background-color: darkslategray;
-    min-width: 50%;
-    height: 350px;
-    padding: 0;
-    margin: 0;
+/*design et choix de la taille des parties à l'interieur de box comprenant de text*/
+.square {
+  color: white;
+  background-color: darkslategray;
+  min-width: 50%;
+  height: 350px;
+  padding: 0;
+  margin: 0;
 }
-
-.background{
-    min-width: 50%;
-    width: 100%;
-    height: 350px;
-    padding: 0;
-    margin: 0;
-    
+/*Choix de la taille de l'image comprise dans box*/
+.background {
+  min-width: 50%;
+  width: 100%;
+  height: 350px;
+  padding: 0;
+  margin: 0;
 }
-
+/* design des boutons des boxs*/
 .button2 {
-    
-    border-radius: 30px;
-    
+  border-radius: 30px;
+}
+/* design du contenu de bouton2*/
+.button2 a {
+  text-decoration: none;
+}
+/* suprime la bordure de droite du dernier bouton du menu en haut des pages*/
+#end {
+  border-right: none;
+}
+/*image pour la box sur le règlement */
+#cat {
+  background-image: url("image/airsoft-4498481_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*image pour la box sur comment commencer l'airsoft*/
+#comment {
+  background-image: url("image/commencer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*image pour la box sur les differents types de répliques*/
+#types {
+  background-image: url(image/difftypes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*image de la box sur l'équipement*/
+#equipement {
+  background-image: url(image/equipement.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.button2 a{
-    text-decoration: none;
+/*design du titre des pages comment commencer et reglement*/
+.titre {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
 }
+/*Design principal des pages reglement et comment commencer*/
+.contenant {
+  max-width: 90%;
+  min-width: 90%;
+  min-height: 600px;
+  border: 3px solid black;
+  background-color: darkslategray;
+  border-radius: 8%;
+  color: whitesmoke;
 
-#end{
-    border-right: none;
-}
+  align-self: center;
 
-#cat{
-    background-image:url("image/airsoft-4498481_640.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
-
-#comment{
-    background-image:url("image/commencer.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.contenu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-
-#types{
-    background-image:url(image/difftypes.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+/*design du bouton pour aller sur le site de la ffa*/
+.lien {
+  border-radius: 30px;
+  border: black solid 2px;
+  transition: 1s;
+  background-color: darkslategrey;
 }
-
-#equipement{
-    background-image:url(image/equipement.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+/*design de l'inscription du bouton*/
+.lien a {
+  text-decoration: none;
+  color: black;
+  transition: 1s;
 }
-
-#pres{
-    color: azure;
+/*effet hover sur le bouton*/
+.lien :hover {
+  transition: 1s;
+  color: whitesmoke;
 }
-
-.titre{
-    display: flex;
-    justify-content: center;
-    color: whitesmoke;
-}       
-
-.contenant{
-    max-width: 80%;
-    min-width: 80%;
-    min-height: 500px;
-    border: 3px solid black;
-    background-color:darkslategray;
-    border-radius: 8%;
-    color: whitesmoke;
-   
-    align-self: center;
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around
+/* image pour la box sur les aeg*/
+#aeg {
+  background-image: url(/image/AEG.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.contenu{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+/* image de la box sur les gbb*/
+#gbb {
+  background-image: url(/image/gbb.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.lien{
-    border-radius: 30px;
-    border: black solid 2px;
-    transition: 1s;
-    background-color: darkslategrey;
+/* image de la box sur les springs*/
+#spring {
+  background-image: url(/image/spring.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.lien a{
-    text-decoration: none;
-    color: black;
-    transition: 1s;
+/* couleur des inscriptions en haut de la page sur les types de répliques */
+.Haut {
+  color: whitesmoke;
 }
-
-.lien :hover{
-    transition: 1s;
-    border-top-color:white !important;
-    border-bottom-color: white !important;
-    border-left-color: blue !important;
-    border-right-color:red !important;
-    color: whitesmoke;
+/*image sur le gear */
+#gear {
+  background-image: url(/image/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-#aeg{
-    background-image: url(/image/AEG.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+/*image de la box sur les protections*/
+#protections {
+  background-image: url(/image/protec.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-#gbb{
-    background-image: url(/image/gbb.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#spring{
-    background-image: url(/image/spring.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.Haut{
-    color: whitesmoke;
-}
-
-#gear{
-    background-image: url(/image/maxresdefault.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#protections{
-    background-image: url(/image/protec.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+/*image de la box présentation de l'airsoft*/
+#pres {
+  background-image: url(/image/pres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
